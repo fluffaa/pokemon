@@ -1,0 +1,125 @@
+/* stylesheet for very first website */
+
+* {
+	margin: 0;
+	border: 0;
+}
+
+header {
+	background-color: #0A285F;
+	color: white;
+}
+
+.poke {
+	color: #FFCB05;
+}
+
+img.logo{
+	width: 100px;
+	height: 100px;
+
+	}
+
+body {
+	font-family: "poppins", sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: "poppins", sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+h3 {
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 15px;	
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 0;
+	background-color: #3D7DCA;
+	font-family: "poppins", sans-serif;
+	font-weight: 500; 
+}
+
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 5vw;
+}
+
+div.pics ul {
+	display: inline-block;
+	list-style: none;
+	width: 100px;
+	height: auto;
+}
+
+div.logoname, 
+div.pics {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 0;
+}
+
+nav ul li a{
+	 text-decoration: none;
+	 color: ghostwhite;
+}
+
+nav ul li a:hover {
+	color: #FFCB05;
+}
+
+div.logoname img {
+	float: left;
+	padding: 1vw;
+}
+
+div.logoname ul {
+	text-decoration: none;
+	list-style: none;
+	padding: 24px 0 0 40px;
+}
+
+main {
+	margin: 30px 300px ;
+	background-color: #FFCB05;
+	padding: 30px 50px;
+	color: #ffffff;
+	border: 5px solid #FFCB05;
+	border-radius: 15px;
+	
+}
+
+img {
+	width: 180px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
