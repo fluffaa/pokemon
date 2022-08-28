@@ -10,6 +10,7 @@
 body {
 	font-family: "poppins", sans-serif;
 	font-weight: 300;
+	font-size: 17px;
 }
 
 h1 {
@@ -21,8 +22,14 @@ h1 {
 h3 {
 	font-family: "poppins", sans-serif;
 	font-weight: 400;
-	font-style: italic;
+	font-style: oblique;
 	font-size: 15px;	
+}
+
+h4 {
+	font-family: "poppins", sans-serif;
+	font-weight: 600;
+	font-size: 25px;
 }
 
 /* header */
@@ -49,15 +56,21 @@ img.turtwig {
 }
 
 img.pikachu:hover {
-	background-color: #0075BE;
+	background-color: #204891;
+	box-shadow: 0 0 15px 12px #204891;
+	border-radius: 37%;
 }
 
 img.snorlax:hover {
-	background-color: #0075BE;
+	background-color: #204891;
+	box-shadow: 0 0 15px 12px #204891;
+	border-radius: 37%;
 }
 
 img.turtwig:hover {
-	background-color: #0075BE;
+	background-color: #204891;
+	box-shadow: 0 0 15px 12px #204891;
+	border-radius: 37%;
 }
 
 div ul.poketitle {
@@ -152,7 +165,7 @@ main div.text {
   position: relative;
 }
 
-
+/* uitprobeersels */
 
 
 
